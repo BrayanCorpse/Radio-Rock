@@ -1098,6 +1098,8 @@ a.uk-link-reset,
   fill: currentcolor;
   /* 10 */
   line-height: 0;
+  /* 11 */
+  cursor: pointer;
 }
 /* Required for `button`. */
 button.uk-icon:not(:disabled) {
@@ -1981,6 +1983,27 @@ select.uk-form-width-xsmall {
   border-color: #999999;
 }
 /*
+* Mine
+ */
+ .uk-button-blue {
+  background-color: #337FFF;
+  color: #fff;
+  border-radius: 10em 10em;
+  border:  solid transparent;
+}
+/* Hover + Focus */
+.uk-button-blue:hover,
+.uk-button-blue:focus {
+  background-color: #0f7ae5;
+  color: #fff;
+}
+/* OnClick + Active */
+.uk-button-blue:active,
+.uk-button-blue.uk-active {
+  background-color: rgb(75, 134, 236);
+  color: #fff;
+}
+/*
  * Primary
  */
 .uk-button-primary {
@@ -2006,6 +2029,7 @@ select.uk-form-width-xsmall {
 .uk-button-secondary {
   background-color: #222;
   color: #fff;
+  border-radius: 10em 10em;
   border: 1px solid transparent;
 }
 /* Hover + Focus */

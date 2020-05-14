@@ -4,8 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock| Radio </title>
+    <link rel="shortcut icon" href="img/uikit.svg">
+
+    <!-- UIkit -->
+    <link rel="stylesheet" href="css/uikit.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+
 </head>
 <body>
+
+    <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body" hidden></div>
+        </div>
+
+        <div>
+            <div class="uk-card uk-card-default uk-card-body">
+
+                <div class="uk-card uk-card-default uk-width-auto">
+                    <div class="uk-card-header uk-background-secondary uk-light uk-padding uk-panel">
+                        <div class="uk-grid-small uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <img class="uk-border-circle" width="30" height="30" src="img/uikit.svg">
+                            </div>
+                            <div class="uk-width-small">
+                                <h3 class="uk-card-title uk-margin-remove-bottom uk-text-emphasis">Play List</h3>
+                                <p class="uk-text-meta uk-margin-remove-top">New Music</p>
+                            </div>
+                            <div class="uk-width-expand">
+                                <img class="uk-border-circle" width="30" height="30" src="img/multimedia.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-card-body">
+
+                            <fieldset class="uk-fieldset">
+
+
+                                <div class="uk-margin">
+                                    <input class="uk-input" type="text" placeholder="Name" id="name">
+                                </div>
+
+                                <div class="uk-margin">
+                                    <input class="uk-input" type="text" placeholder="Artist" id="artist">
+                                </div>
+
+                                <div class="uk-margin">
+                                    <div uk-form-custom>
+                                        <input type="file" id="url">
+                                        <button class="uk-button uk-button-default" type="button" tabindex="-1">Add new music here
+                                             <span uk-icon="play-circle"></span>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="uk-margin">
+                                    <div uk-form-custom>
+                                        <input type="file" id="cover">
+                                        <button class="uk-button uk-button-default" type="button" tabindex="-1">Add new image here
+                                             <span uk-icon="image"></span>
+                                        </button>
+                                    </div>
+                                </div>
+
+
+                                <div class="uk-margin">
+                                    <input class="uk-input" type="text" placeholder="Theme" id="theme">
+                                </div>
+
+                                <div class="uk-margin">
+                                    <input class="uk-input" type="text" placeholder="Genre" id="genre">
+                                </div>
+
+                            </fieldset>
+
+                    </div>
+
+                    <div class="uk-card-footer">
+                        <button class="uk-button uk-button-secondary uk-width-1-1 uk-margin-small-bottom" id="save">Save</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div>
+            <div class="uk-card uk-card-default uk-card-body" hidden></div>
+        </div>
+    </div>
+
+    <div class="uk-flex uk-flex-center">
+        <div></div>
+    </div>
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
+
+    <script src="js/conection.js"></script>
+
+    <script src="js/index.js"></script>
+    <script src="js/moment.min.js"></script>
     
 </body>
 </html>
