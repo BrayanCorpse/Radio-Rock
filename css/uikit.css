@@ -1983,24 +1983,65 @@ select.uk-form-width-xsmall {
   border-color: #999999;
 }
 /*
-* Mine
+* orange
  */
- .uk-button-blue {
-  background-color: #337FFF;
+ .uk-button-orange {
+  background-color: transparent;
   color: #fff;
-  border-radius: 10em 10em;
-  border:  solid transparent;
+  border:  solid  #FD6D3F;
+  border-radius: 0em 10em;
 }
 /* Hover + Focus */
-.uk-button-blue:hover,
-.uk-button-blue:focus {
-  background-color: #0f7ae5;
+.uk-button-orange:hover,
+.uk-button-orange:focus {
+  background-color: rgb(241, 82, 28);
   color: #fff;
 }
 /* OnClick + Active */
-.uk-button-blue:active,
-.uk-button-blue.uk-active {
-  background-color: rgb(75, 134, 236);
+.uk-button-orange:active,
+.uk-button-orange.uk-active {
+  background-color: rgb(231, 87, 39);
+  color: #fff;
+}
+/*
+* pri-orange
+ */
+ .uk-button-pri-orange {
+  background-color: transparent;
+  color: #333;
+  border: 1px solid  #FD6D3F;
+}
+/* Hover + Focus */
+.uk-button-pri-orange:hover,
+.uk-button-pri-orange:focus {
+  background-color: transparent;
+  color: #333;
+}
+/* OnClick + Active */
+.uk-button-pri-orange:active,
+.uk-button-pri-orange.uk-active {
+  background-color: #FD6D3F;
+  color: #333;
+}
+/*
+* purple
+ */
+ .uk-button-purple {
+  background-color: transparent;
+  color:#fff;
+  border:  solid #883FFD;
+  border-radius: 10em 0em;
+}
+/* Hover + Focus */
+.uk-button-purple:hover,
+.uk-button-purple:focus {
+  background-color: rgb(116, 34, 248);
+  color: #fff;
+}
+/* OnClick + Active */
+.uk-button-purple:active,
+.uk-button-purple.uk-active {
+  background-color: rgb(125, 63, 224);
   color: #fff;
 }
 /*
@@ -2024,12 +2065,32 @@ select.uk-form-width-xsmall {
   color: #fff;
 }
 /*
+* MySecondary
+ */
+ .uk-button-mysecondary {
+  background-color: #222;
+  color: #fff;
+  border-radius: 10em 10em;
+  border: 1px solid transparent;
+}
+/* Hover + Focus */
+.uk-button-mysecondary:hover,
+.uk-button-mysecondary:focus {
+  background-color: #151515;
+  color: #fff;
+}
+/* OnClick + Active */
+.uk-button-mysecondary:active,
+.uk-button-mysecondary.uk-active {
+  background-color: #080808;
+  color: #fff;
+}
+/*
  * Secondary
  */
 .uk-button-secondary {
   background-color: #222;
   color: #fff;
-  border-radius: 10em 10em;
   border: 1px solid transparent;
 }
 /* Hover + Focus */
@@ -5214,7 +5275,7 @@ ul.uk-nav-sub {
   /* 2 */
   box-sizing: border-box;
   margin: 0 auto;
-  width: 600px;
+  width: 400px;
   /* 3 */
   max-width: calc(100% - 0.01px) !important;
   /* 4 */

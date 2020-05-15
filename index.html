@@ -13,14 +13,70 @@
 
 </head>
 <body>
+        <!-- Navbar -->
+    <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="img/canva.jpg" uk-img>
+        <div class="uk-position-medium" >
+            <a class="uk-button uk-button-orange" href="#modal-sections" uk-toggle>Sing in</a>
+            <button class="uk-button uk-button-purple">Sing up</button>
+        </div>
+    </div>
+    <!-- End-navbar -->
+
+        <!-- Modal -->
+        <div id="modal-sections" uk-modal>
+            <div class="uk-modal-dialog">
+                <button class="uk-modal-close-default" type="button" uk-close></button>
+                <div class="uk-modal-header uk-inline">
+
+                    <button class="uk-button uk-button-default uk-button-default uk-width-medium uk-margin-small-bottom">
+                        Google
+                        <span uk-icon="google"></span>
+                    </button>
+
+                    <button class="uk-button uk-button-primary uk-button-default uk-width-medium uk-margin-small-bottom">
+                        Facebook
+                        <span uk-icon="facebook"></span>
+                    </button>
+               
+                    <button class="uk-button uk-button-secondary uk-button-default uk-width-medium uk-margin-small-bottom">
+                        Github
+                        <span uk-icon="github"></span>
+                    </button>
+                    
+                </div>
+                <div class="uk-modal-body">
+                   
+                    <form>
+
+                        <div class="uk-margin">
+                            <div class="uk-inline">
+                                <span class="uk-form-icon" uk-icon="icon: user"></span>
+                                <input class="uk-input uk-form-width-large" type="text">
+                            </div>
+                        </div>
+                    
+                        <div class="uk-margin">
+                            <div class="uk-inline">
+                                <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: lock"></span>
+                                <input class="uk-input uk-form-width-large" type="text">
+                            </div>
+                        </div>
+                    
+                    </form>
+
+                </div>
+                <div class="uk-modal-footer uk-text-right">
+                    <button class="uk-button uk-button-danger uk-modal-close" type="button">Cancel</button>
+                    <button class="uk-button uk-button-primary" type="button">Save</button>
+                </div>
+            </div>
+        </div>
+    <!-- End-modal -->
 
     <div class="uk-child-width-expand@s uk-text-center" uk-grid>
         <div>
-            <div class="uk-card uk-card-default uk-card-body" hidden></div>
-        </div>
 
-        <div>
-            <div class="uk-card uk-card-default uk-card-body">
+            <div class="uk-card uk-card-default uk-card-body" >
 
                 <div class="uk-card uk-card-default uk-width-auto">
                     <div class="uk-card-header uk-background-secondary uk-light uk-padding uk-panel">
@@ -50,23 +106,27 @@
                                     <input class="uk-input" type="text" placeholder="Artist" id="artist">
                                 </div>
 
-                                <div class="uk-margin">
+                                <div class="js-upload uk-placeholder uk-text-center">
+                                    <span uk-icon="icon: cloud-upload"></span>
+                                    <span class="uk-text-middle">Song</span>
                                     <div uk-form-custom>
-                                        <input type="file" id="url">
-                                        <button class="uk-button uk-button-default" type="button" tabindex="-1">Add new music here
-                                             <span uk-icon="play-circle"></span>
-                                        </button>
+                                        <input type="file" multiple id="url">
+                                        <span class="uk-link">selecting one</span>
                                     </div>
                                 </div>
+                                
+                                <progress id="js-progressbar" class="uk-progress" value="0" max="100" hidden></progress>   
 
-                                <div class="uk-margin">
+                                <div class="js-upload uk-placeholder uk-text-center">
+                                    <span uk-icon="icon: cloud-upload"></span>
+                                    <span class="uk-text-middle">Image</span>
                                     <div uk-form-custom>
-                                        <input type="file" id="cover">
-                                        <button class="uk-button uk-button-default" type="button" tabindex="-1">Add new image here
-                                             <span uk-icon="image"></span>
-                                        </button>
+                                        <input type="file" multiple id="cover">
+                                        <span class="uk-link">selecting one</span>
                                     </div>
                                 </div>
+                                
+                                <progress id="js-progressbar" class="uk-progress" value="0" max="100" hidden></progress>
 
 
                                 <div class="uk-margin">
@@ -82,21 +142,28 @@
                     </div>
 
                     <div class="uk-card-footer">
-                        <button class="uk-button uk-button-secondary uk-width-1-1 uk-margin-small-bottom" id="save">Save</button>
+                        <button class="uk-button uk-button-mysecondary uk-width-1-1 uk-margin-small-bottom" id="save">Save</button>
                     </div>
 
                 </div>
 
             </div>
+
         </div>
 
         <div>
-            <div class="uk-card uk-card-default uk-card-body" hidden></div>
-        </div>
-    </div>
+            <div class="uk-card uk-card-default uk-card-body">
 
-    <div class="uk-flex uk-flex-center">
-        <div></div>
+                
+
+            </div>
+        </div>
+
+        <div>
+            <div class="uk-card uk-card-default uk-card-body" >
+
+            </div>
+        </div>
     </div>
 
 
