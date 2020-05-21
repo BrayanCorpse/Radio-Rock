@@ -17,7 +17,10 @@ html {
   /* 2 */
   -webkit-text-size-adjust: 100%;
   /* 3 */
-  background: #fff;
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   color: #666;
 }
 /*
@@ -3148,6 +3151,47 @@ select.uk-form-width-xsmall {
   background-color: #222;
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
 }
+
+/*
+ * asteroid
+ */
+ .uk-card-asteroid {
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+.uk-card-asteroid .uk-card-title {
+  color: #fff;
+}
+.uk-card-asteroid.uk-card-hover:hover {
+  background-color: #222;
+  box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
+}
+
+/*
+ * orange
+ */
+ .uk-card-mycard {
+  background: #FF0099;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+.uk-card-mycard .uk-card-title {
+  color: #fff;
+}
+.uk-card-mycard.uk-card-hover:hover {
+  background-color: #FD6D3F;
+  box-shadow: 0 14px 25px #FD6D3F;
+}
+
+
+
 /* Size modifier
  ========================================================================== */
 /*
@@ -3873,7 +3917,7 @@ select.uk-form-width-xsmall {
 .uk-search-large .uk-search-input {
   height: 80px;
   background: transparent;
-  font-size: 2.625rem;
+  font-size: 1rem;
 }
 /*
  * Icon
