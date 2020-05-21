@@ -34,6 +34,14 @@ const ap = new APlayer({
             cover: './img/sing.jpg',
             lrc: 'lrc2.lrc',
             theme: '#46718b'
-        }   
+        },
+        {
+            name: 'White Flag',
+            artist: 'Dido',
+            url: './music/dido-white-flag.mp3',
+            cover: './img/dido.jpg',
+            lrc: 'lrc2.lrc',
+            theme: '#46718b'
+        }  
     ]
 });
