@@ -505,9 +505,22 @@ a.uk-link-heading:hover,
 .uk-link-heading a:hover,
 .uk-link-toggle:hover .uk-link-heading,
 .uk-link-toggle:focus .uk-link-heading {
-  color: #1e87f0;
+  color: #FF416C;
   text-decoration: none;
 }
+/* footer
+ ========================================================================== */
+ a.uk-link-footer,
+ .uk-link-footer a {
+   color: inherit;
+ }
+ a.uk-link-footer:hover,
+ .uk-link-footer a:hover,
+ .uk-link-footer:hover .uk-link-footer,
+ .uk-link-footer:focus .uk-link-footer {
+   color: rgb(65, 78, 255);
+   text-decoration: none;
+ }
 /* Reset
  ========================================================================== */
 /*
@@ -3153,6 +3166,22 @@ select.uk-form-width-xsmall {
 }
 
 /*
+ * card-MySecondary
+ */
+ .uk-card-mysecondary {
+  background: #0F2027;
+  color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+.uk-card-mysecondary .uk-card-title {
+  color: #fff;
+}
+.uk-card-mysecondary.uk-card-hover:hover {
+  background-color: #222;
+  box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
+}
+
+/*
  * asteroid
  */
  .uk-card-asteroid {
@@ -3172,7 +3201,7 @@ select.uk-form-width-xsmall {
 }
 
 /*
- * orange
+ * mycard 
  */
  .uk-card-mycard {
   background: #FF0099;  /* fallback for old browsers */

@@ -1,0 +1,15 @@
+.swal-overlay {
+    background-color: rgba(165, 43, 110, 0.45);
+  }
+
+.swal-button {
+    background-color: #1C4EE2;
+}
+
+.swal-button:active {
+    background-color: rgb(52, 79, 161);
+}
+
+.swal-button--danger{
+    background-color: #e64942;
+}
