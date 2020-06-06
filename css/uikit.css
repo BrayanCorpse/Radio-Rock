@@ -2101,6 +2101,7 @@ select.uk-form-width-xsmall {
   color: #fff;
 }
 /*
+
  * Secondary
  */
 .uk-button-secondary {
@@ -2138,6 +2139,27 @@ select.uk-form-width-xsmall {
 .uk-button-danger:active,
 .uk-button-danger.uk-active {
   background-color: #ec2147;
+  color: #fff;
+}
+/*
+/*
+* Rose
+ */
+ .uk-button-rose {
+  background-color: #FF416C;
+  color: #fff;
+  border: 1px solid transparent;
+}
+/* Hover + Focus */
+.uk-button-rose:hover,
+.uk-button-rose:focus {
+  background-color: rgb(236, 43, 91);
+  color: #fff;
+}
+/* OnClick + Active */
+.uk-button-rose:active,
+.uk-button-rose.uk-active {
+  background-color: rgb(236, 43, 91);
   color: #fff;
 }
 /*
