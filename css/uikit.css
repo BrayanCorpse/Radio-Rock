@@ -2083,21 +2083,20 @@ select.uk-form-width-xsmall {
 * MySecondary
  */
  .uk-button-mysecondary {
-  background-color: #222;
+  background-color: #0f0c29;
   color: #fff;
-  border-radius: 10em 10em;
-  border: 1px solid transparent;
+  border: 1px solid #fff;
 }
 /* Hover + Focus */
 .uk-button-mysecondary:hover,
 .uk-button-mysecondary:focus {
-  background-color: #151515;
+  background-color: #0c0a20;
   color: #fff;
 }
 /* OnClick + Active */
 .uk-button-mysecondary:active,
 .uk-button-mysecondary.uk-active {
-  background-color: #080808;
+  background-color: #0b091d;
   color: #fff;
 }
 /*
