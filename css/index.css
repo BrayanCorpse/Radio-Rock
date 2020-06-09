@@ -122,6 +122,144 @@
             transition-delay: 0.6s;
   }
 
-  
+  .uk-background-fixed {
+    position: relative;
+  }
 
+
+/* Logo */
+
+.logo {
+  position: absolute;
+  top: 5%;
+  left: 2.5%;
+}
+
+
+/* Links */
+
+  .links {
+    position: absolute;
+    top:40%;
+    left: 28%;
+  }
+
+  .links span {
+    margin: 0 12px;
+  }
+
+  .facebook {
+    color: #4267B2;
+  }
+
+  .twitter {
+    color: #1DA1F2;
+  }
+
+  .instagram {
+    color: #E1306C;
+  }
+
+  .youtube {
+    color: #FF0000;
+  }
+ 
+  .github {
+    color: purple;
+  }
+
+  .linkedin {
+    color:#0072b1;
+  }
+
+  .pinterest {
+    color: #c8232c;
+  }
+  
+  .reddit {
+    color: #FF5700;
+  }
+
+  .facebook:hover{
+    background: #4267B2 ;
+    box-shadow: 0 0 5px #4267B2 , 0 0 50px#4267B2 , 0 0 50px #4267B2 , 0 0 200px #4267B2 ;
+    color:white;
+    border-radius: 10%;
+    animation: rotation 5s infinite linear;
+  }
+
+  .twitter:hover{
+    background: #1DA1F2 ;
+    box-shadow: 0 0 5px #1DA1F2 , 0 0 50px#1DA1F2 , 0 0 50px #1DA1F2 , 0 0 200px #1DA1F2 ;
+    color:white;
+    border-radius: 10%;
+    animation: rotation 5s infinite linear;
+  }
+
+  .instagram:hover{
+    background: #E1306C ;
+    box-shadow: 0 0 5px #E1306C , 0 0 50px#E1306C , 0 0 50px #E1306C , 0 0 200px #E1306C ;
+    color:white;
+    border-radius: 10%;
+    animation: rotation 5s infinite linear;
+  }
+
+  .youtube:hover{
+    background: #FF0000 ;
+    box-shadow: 0 0 5px #FF0000 , 0 0 50px#FF0000 , 0 0 50px #FF0000 , 0 0 200px #FF0000 ;
+    color:white;
+    border-radius: 10%;
+    animation: rotation 5s infinite linear;
+  }
+
+  .github:hover{
+    background: purple ;
+    box-shadow: 0 0 5px purple , 0 0 50px purple , 0 0 50px purple , 0 0 200px purple ;
+    color:white;
+    border-radius: 10%;
+    animation: rotation 5s infinite linear;
+  }
+
+  .linkedin:hover{
+    background: #0072b1 ;
+    box-shadow: 0 0 5px #0072b1 , 0 0 50px #0072b1 , 0 0 50px #0072b1 , 0 0 200px #0072b1 ;
+    color:white;
+    border-radius: 10%;
+    animation: rotation 5s infinite linear;
+  }
+
+  .pinterest:hover{
+    background: #c8232c ;
+    box-shadow: 0 0 5px #c8232c , 0 0 50px #c8232c , 0 0 50px #c8232c , 0 0 200px #c8232c ;
+    color:white;
+    border-radius: 10%;
+    animation: rotation 5s infinite linear;
+  }
+
+  .reddit:hover{
+    background: #FF5700 ;
+    box-shadow: 0 0 5px #FF5700 , 0 0 50px #FF5700 , 0 0 50px #FF5700 , 0 0 200px #FF5700 ;
+    color:white;
+    border-radius: 10%;
+    animation: rotation 5s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(356deg);
+    }
+  }
+
+  .company {
+    position: absolute;
+    top: 60%;
+    left: 33.5%;
+  }
+
+  .company a {
+    color: white;
+  }
   
