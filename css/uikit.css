@@ -1998,6 +1998,29 @@ select.uk-form-width-xsmall {
   border-color: #999999;
 }
 /*
+*
+ * rec-purple
+ */
+ .uk-button-rec-purple {
+  background-color: transparent;
+  color:#fff;
+  border:  solid #883FFD;
+}
+/* Hover + Focus */
+.uk-button-rec-purple:hover,
+.uk-button-rec-purple:focus {
+  background-color: rgb(116, 34, 248);
+  color: #fff;
+  border-color: rgb(116, 34, 248);
+}
+/* OnClick + Active */
+.uk-button-rec-purple:active,
+.uk-button-rec-purple.uk-active {
+  background-color: rgb(125, 63, 224);
+  color: #fff;
+  border-color: rgb(125, 63, 224);
+}
+/*
 * orange
  */
  .uk-button-orange {
@@ -2083,9 +2106,9 @@ select.uk-form-width-xsmall {
 * MySecondary
  */
  .uk-button-mysecondary {
-  background-color: #0f0c29;
+  background-color: #16123f;
   color: #fff;
-  border: 1px solid #fff;
+  border: 1px solid #0c0a20;
 }
 /* Hover + Focus */
 .uk-button-mysecondary:hover,
@@ -3199,6 +3222,24 @@ select.uk-form-width-xsmall {
 .uk-card-mysecondary.uk-card-hover:hover {
   background-color: #222;
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
+}
+
+/*
+
+/*
+ * card-trans
+ */
+ .uk-card-trans {
+  background: rgb(25, 36, 46,0.6);
+  color: #fff;
+  box-shadow: 0 5px 15px rgb(25, 36, 46,0.6);
+}
+.uk-card-trans .uk-card-title {
+  color: #fff;
+}
+.uk-card-trans.uk-card-hover:hover {
+  background-color: rgb(25, 36, 46,0.6);
+  box-shadow: 0 14px 25px rgb(25, 36, 46,0.6);
 }
 
 /*
