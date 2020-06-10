@@ -140,12 +140,13 @@
 
   .links {
     position: absolute;
-    top:40%;
-    left: 28%;
+    top:70%;
+    left: 25%;
+      
   }
 
   .links span {
-    margin: 0 12px;
+    margin: 0 10px; 
   }
 
   .facebook {
@@ -253,10 +254,13 @@
     }
   }
 
-  .company {
+  .company{
     position: absolute;
-    top: 60%;
-    left: 33.5%;
+    top: 15%;
+    left: 0%;
+    width: 100%;
+    height: 50%;
+    background-color: transparent;
   }
 
   .company a {
