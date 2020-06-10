@@ -3,6 +3,15 @@ const ap = new APlayer({
     listFolded: false,
     listMaxHeight: 90,
     audio: [
+
+        {
+            name: 'Creep',
+            artist: 'Radiohead',
+            url: './music/radiohead-creep.mp3',
+            cover: './img/R-creep.jpg',
+            lrc: 'lrc1.lrc',
+            theme: '#2E083D'
+        },
         {
             name: 'Stan - Eminem ft. Dido',
             artist: 'Emminem',
@@ -10,6 +19,14 @@ const ap = new APlayer({
             cover: './img/Stan.jpg',
             lrc: 'lrc1.lrc',
             theme: '#ebd0c2'
+        },
+        {
+            name: 'Seeman',
+            artist: 'Rammstein',
+            url: './music/rammstein-seemann.mp3',
+            cover: './img/seeman.jpg',
+            lrc: 'lrc1.lrc',
+            theme: '#0E6E77 '
         },
         {
             name: 'Gangsta´s Paradise (feat. L.V.)',
@@ -42,6 +59,30 @@ const ap = new APlayer({
             cover: './img/dido.jpg',
             lrc: 'lrc2.lrc',
             theme: '#46718b'
-        }  
+        },
+        {
+            name: 'All the things she said',
+            artist: 'Tatu',
+            url: './music/tatu-all-the-things-she-said.mp3',
+            cover: './img/tatu.jpg',
+            lrc: 'lrc2.lrc',
+            theme: '#E74C3C'
+        },
+        {
+            name: 'You Don´t Know',
+            artist: 'Eminem, 50 Cent',
+            url: './music/eminem-ft-50-cent-cashis-lloyd-banks-you-dont-know-official-video.mp3',
+            cover: './img/emi-50.jpg',
+            lrc: 'lrc2.lrc',
+            theme: '#1A5276 '
+        },
+        {
+            name: 'Feel Good',
+            artist: 'Gorillaz',
+            url: './music/gorillaz-feel-good.mp3',
+            cover: './img/gor.jpg',
+            lrc: 'lrc2.lrc',
+            theme: '#A569BD '
+        }      
     ]
 });
